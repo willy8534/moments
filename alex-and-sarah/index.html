@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Special Moments</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #0b0b0e;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 24px 16px;
+            text-align: center;
+        }
+        .header { margin-bottom: 24px; }
+        .header h1 { 
+            font-size: 1.8rem; 
+            font-weight: 700; 
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 6px;
+        }
+        .header p { font-size: 0.95rem; color: #a0a0ab; }
+        .card {
+            width: 100%;
+            max-width: 380px;
+            background: #16161a;
+            border: 1px solid #282830;
+            border-radius: 24px;
+            padding: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 65, 108, 0.15);
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 16px;
+        }
+        .footer { margin-top: 28px; font-size: 0.8rem; color: #62626d; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Alex & Sarah ❤️</h1>
+        <p>Our Special Clip</p>
+    </div>
+
+    <div class="card">
+        <video controls playsinline controlsList="nodownload">
+            <source src="../video.mov" type="video/quicktime">
+            Your browser does not support video playback.
+        </video>
+    </div>
+
+    <div class="footer">
+        <p>Tapped with Love ✨</p>
+    </div>
+
+</body>
+</html>

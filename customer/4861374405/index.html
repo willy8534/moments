@@ -16,18 +16,15 @@
             justify-content: center;
             min-height: 100vh;
             padding: 24px 16px;
-            text-align: center;
         }
-        .header { margin-bottom: 24px; }
         .header h1 { 
             font-size: 1.8rem; 
             font-weight: 700; 
             background: linear-gradient(135deg, #ff416c, #ff4b2b);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 6px;
+            margin-bottom: 24px;
         }
-        .header p { font-size: 0.95rem; color: #a0a0ab; }
         .card {
             width: 100%;
             max-width: 380px;
@@ -43,26 +40,21 @@
             display: block;
             border-radius: 16px;
         }
-        .footer { margin-top: 28px; font-size: 0.8rem; color: #62626d; }
     </style>
 </head>
 <body>
 
     <div class="header">
+        <!-- EDIT 1: CUSTOMER NAMES -->
         <h1>Giovani & Jaslyne ❤️</h1>
-        <p>Our Special Clip</p>
     </div>
 
     <div class="card">
         <video controls playsinline controlsList="nodownload">
-            <!-- ABSOLUTE PATH TO VIDEO IN VIDEOS FOLDER -->
+            <!-- EDIT 2: VIDEO FILENAME AT THE END -->
             <source src="https://moments-11a.pages.dev/videos/20261004_201139000_iOS.mp4" type="video/mp4">
             Your browser does not support video playback.
         </video>
-    </div>
-
-    <div class="footer">
-        <p>Tapped with Love ✨</p>
     </div>
 
 </body>

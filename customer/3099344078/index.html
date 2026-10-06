@@ -27,7 +27,6 @@
             -webkit-text-fill-color: transparent;
             margin-bottom: 6px;
         }
-        .header p { font-size: 0.95rem; color: #a0a0ab; }
         .card {
             width: 100%;
             max-width: 380px;
@@ -43,25 +42,21 @@
             display: block;
             border-radius: 16px;
         }
-        .footer { margin-top: 28px; font-size: 0.8rem; color: #62626d; }
     </style>
 </head>
 <body>
 
     <div class="header">
+        <!-- EDIT 1: CUSTOMER TITLE -->
         <h1>Gio Boxing</h1>
     </div>
 
     <div class="card">
-        <video controls playsinline controlsList="nodownload">
-            <!-- ABSOLUTE PATH TO VIDEO IN VIDEOS FOLDER -->
+        <video controls autoplay muted playsinline controlsList="nodownload">
+            <!-- EDIT 2: VIDEO FILENAME -->
             <source src="https://moments-11a.pages.dev/videos/1.MP4" type="video/mp4">
             Your browser does not support video playback.
         </video>
-    </div>
-
-    <div class="footer">
-        <p></p>
     </div>
 
 </body>
